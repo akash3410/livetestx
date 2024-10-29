@@ -34,3 +34,4 @@ def delete_post(request, id):
     post.delete()
     
     return redirect ('homepage')
+                    
